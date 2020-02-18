@@ -5,7 +5,7 @@ if (window.addEventListener && window.requestAnimationFrame && document.getEleme
   
 	// start
 	var pItem = document.getElementsByClassName('progressive replace'), pCount, timer;
-  
+	
 	// scroll and resize events
 	window.addEventListener('scroll', scroller, false);
 	window.addEventListener('resize', scroller, false);
